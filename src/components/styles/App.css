@@ -1,0 +1,41 @@
+.App{
+  display: flex;
+}
+
+.main {
+  width: 100%; 
+  padding-left: 50px; 
+  margin-top: 76px;
+}
+
+.side-bar{
+  background-color: black;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.side-bar-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.input-box {
+  margin: 10px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.bx--grid{
+padding-left: 0px !important;
+padding-right: 0px !important;
+max-width: 100rem !important;
+margin-left: 0px !important;
+margin-right: 0px !important;
+}
